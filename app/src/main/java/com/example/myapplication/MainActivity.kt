@@ -13,14 +13,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         vasatText.text = sum(4,9).toString()
-
+        AlertDialog.Builder(this).setTitle("hiiii").show()
         tay.setOnClickListener {
             val intent = Intent(this@MainActivity, PayActivity::class.java)
             startActivity(intent)
             Toast.makeText(this, "سلام", Toast.LENGTH_LONG).show()
             tay.text = "kkk"
             Toast.makeText(this, "salaam khoobi", Toast.LENGTH_LONG).show()
-            AlertDialog.Builder(this).setTitle("hiiii").show()
+
 
         }
     }
