@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             Toast.makeText(this, "سلام", Toast.LENGTH_LONG).show()
             tay.text = "kkk"
+            Toast.makeText(this, "salaam khoobi", Toast.LENGTH_LONG).show()
 
         }
     }
